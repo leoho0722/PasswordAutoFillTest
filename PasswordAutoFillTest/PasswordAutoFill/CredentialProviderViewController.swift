@@ -37,7 +37,7 @@ class CredentialProviderViewController: ASCredentialProviderViewController {
      prioritize the most relevant credentials in the list.
     */
     override func prepareCredentialList(for serviceIdentifiers: [ASCredentialServiceIdentifier]) {
-
+        print(serviceIdentifiers[0].identifier)
     }
 
     /*
